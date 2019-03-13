@@ -1,0 +1,212 @@
+{
+  "boolean": {
+    "label": "Yes or No",
+    "options": [
+      { "label": "Yes", "value": true },
+      { "label": "No", "value": false }
+    ]
+  },
+  "ids": {
+    "label": "ID",
+    "options": [
+      { "label": "NCI ID", "value": "nci_id" },
+      { "label": "NCT ID", "value": "nct_id" },
+      { "label": "CTEP ID", "value": "ctep_id" },
+      { "label": "DCP ID", "value": "dcp_id" },
+      { "label": "CCR ID", "value": "ccr_id" }
+    ]
+  },
+  "select_boolean": {
+    "label": "Yes or No",
+    "options": [
+      { "label": "Select Multiple", "value": false },
+      { "label": "Select All", "value": true }
+    ]
+  },
+  "on-off": {
+    "label": "Yes or No",
+    "options": [
+      { "label": "Show", "value": true },
+      { "label": "Hide", "value": false }
+    ]
+  },
+  "study_source": {
+    "label": "Study Source",
+    "options": [
+      { "label": "National", "value": "NATIONAL"},
+      { "label": "Institutional", "value": "INSTITUTIONAL"},
+      { "label": "Externally Peer Reviewed", "value": "EXTERNALLY_PEER_REVIEWED"},
+      { "label": "Industrial", "value": "INDUSTRIAL"},
+      { "label": "Unknown", "value": "Unknown"}
+    ]
+  },
+  "range_type": {
+    "label": "Range Type",
+    "options": [
+      { "label": "Current Trial Status Date", "value": "current_trial_status_date"},
+      { "label": "Record Verification Date", "value": "record_verification_date"},
+      { "label": "STRAP Publication Date", "value": "strap_publication_date"},
+      { "label": "Start Date", "value": "start_date_value"},
+      { "label": "Primary Completion Date", "value": "primary_completion_date_value"},
+      { "label": "Completion Date", "value": "completion_date_value"}
+    ]
+  },
+  "current_trial_status": {
+    "label": "Trial Status",
+    "options": [
+      { "label": "Active", "value": "ACTIVE"},
+      { "label": "Available", "value": "AVAILABLE"},
+      { "label": "Approved for Marketing", "value": "APPROVED_FOR_MARKETING"},
+      { "label": "Approved", "value": "APPROVED"},
+      { "label": "Administratively Complete", "value": "ADMINISTRATIVELY_COMPLETE"},
+      { "label": "Closed to Accrual", "value": "CLOSED_TO_ACCRUAL"},
+      { "label": "Complete", "value": "COMPLETE"},
+      { "label": "Closed to Accrual and Intervention", "value": "CLOSED_TO_ACCRUAL_AND_INTERVENTION"},
+      { "label": "Enrolling by Invitation", "value": "ENROLLING_BY_INVITATION"},
+      { "label": "In Review", "value": "IN_REVIEW"},
+      { "label": "No Longer Available", "value": "NO_LONGER_AVAILABLE"},
+      { "label": "Temporarily Closed to Accrual", "value": "TEMPORARILY_CLOSED_TO_ACCRUAL"},
+      { "label": "Temporarily Closed to Accrual and Intervention", "value": "TEMPORARILY_CLOSED_TO_ACCRUAL_AND_INTERVENTION"},
+      { "label": "Temporarily not Available", "value": "TEMPORARILY_NOT_AVAILABLE"},
+      { "label": "Withdrawn", "value": "WITHDRAWN"},
+      { "label": "Unknown", "value": "UNKNOWN"}
+    ]
+  },
+  "trial-type": {
+    "label": "Trial Type",
+    "options": [
+      { "label": "All", "value": -1},
+      { "label": "Interventional", "value": 1},
+      { "label": "Non-interventional", "value": 0}
+    ]
+  },
+  "trial-type-reports": {
+    "label": "Trial Type",
+    "options": [
+      { "label": "All", "value": 1},
+      { "label": "Interventional", "value": 2},
+      { "label": "Non-interventional", "value": 3}
+    ]
+  },
+  "phase": {
+    "label": "Phase",
+    "options": [
+      { "label": "I", "value": "I"},
+      { "label": "II", "value": "II"},
+      { "label": "III", "value": "III"},
+      { "label": "IV", "value": "IV"},
+      { "label": "I/II", "value": "I/II"},
+      { "label": "II/III", "value": "II/III"},
+      { "label": "NA", "value": "NA"},
+      { "label": "Unknown", "value": "UNKNOWN"},
+      { "label": "Early Phase I", "value": "Early Phase I"}
+    ]
+  },
+  "primary_purpose": {
+    "label": "Primary Purpose",
+    "options": [
+      { "label": "Basic Science", "value": "BASIC_SCIENCE"},
+      { "label": "Diagnostic", "value": "DIAGNOSTIC"},
+      { "label": "Health Services Research", "value": "HEALTH_SERVICES_RESEARCH"},
+      { "label": "Prevention", "value": "PREVENTION"},
+      { "label": "Screening", "value": "SCREENING"},
+      { "label": "Supportive Care", "value": "SUPPORTIVE_CARE"},
+      { "label": "Treatment", "value": "TREATMENT"},
+      { "label": "Device", "value": "DEVICE"},
+      { "label": "Other", "value": "OTHER"}
+    ]
+  },
+  "fiscal_year": {
+    "label": "Fiscal Year",
+    "options": [
+      { "label": "2009", "value": 2009 },
+      { "label": "2010", "value": 2010 },
+      { "label": "2011", "value": 2011 },
+      { "label": "2012", "value": 2012 },
+      { "label": "2013", "value": 2013 },
+      { "label": "2014", "value": 2014 },
+      { "label": "2015", "value": 2015 },
+      { "label": "2016", "value": 2016 },
+      { "label": "2017", "value": 2017 },
+      { "label": "2018", "value": 2018 },
+      { "label": "2019", "value": 2019 },
+      { "label": "2020", "value": 2020 },
+      { "label": "2021", "value": 2021 },
+      { "label": "2022", "value": 2022 },
+      { "label": "2023", "value": 2023 },
+      { "label": "2024", "value": 2024 },
+      { "label": "2025", "value": 2025 }
+    ]
+  },
+  "interval": {
+    "label": "Interval",
+    "options": [
+      { "label": "Year", "value": "year"},
+      { "label": "Month", "value": "month"},
+      { "label": "Day", "value": "day"}
+    ]
+  },
+  "groups.interventions.type": {
+    "label": "Intervention Type",
+    "options": [
+      { "label": "Behavioral", "value": "Behavioral" },
+      { "label": "Biological/Vaccine", "value": "Biological/Vaccine" },
+      { "label": "Device", "value": "Device" },
+      { "label": "Dietary Supplement", "value": "Dietary Supplement" },
+      { "label": "Drug", "value": "Drug" },
+      { "label": "Genetic", "value": "Genetic" },
+      { "label": "Other", "value": "Other" },
+      { "label": "Procedure/Surgery", "value": "Procedure/Surgery" },
+      { "label": "Radiation", "value": "Radiation" },
+      { "label": "Structured Eligibility Criteria", "value": "Structured Eligibility Criteria" }
+    ]
+  },
+  "current_recruiting_status": {
+    "label": "Current Recruting Status",
+    "options": [
+      { "label": "Active", "value": "ACTIVE"},
+      { "label": "Administratively Complete", "value": "ADMINISTRATIVELY_COMPLETE"},
+      { "label": "Closed to Accrual", "value": "CLOSED_TO_ACCRUAL"},
+      { "label": "Completed", "value": "COMPLETE"},
+      { "label": "Closed to Accrual and Intervention", "value": "CLOSED_TO_ACCRUAL_AND_INTERVENTION"},
+      { "label": "Enrolling by Invitation", "value": "ENROLLING_BY_INVITATION"},
+      { "label": "In Review", "value": "IN_REVIEW"},
+      { "label": "Temporarily Closed to Accrual", "value": "TEMPORARILY_CLOSED_TO_ACCRUAL"},
+      { "label": "Temporarily Closed to Accrual and Intervention", "value": "TEMPORARILY_CLOSED_TO_ACCRUAL_AND_INTERVENTION"},
+      { "label": "Nullified", "value": "NULLIFIED"}
+    ]
+  },
+  "races": {
+    "label": "Races",
+    "options": [
+      { "label": "American Indian", "value": "AMERICAN_INDIAN"},
+      { "label": "Asian", "value": "ASIAN"},
+      { "label": "Black", "value": "BLACK"},
+      { "label": "Hawaiian", "value": "HAWAIIAN"},
+      { "label": "White", "value": "WHITE"},
+      { "label": "Not Reported", "value": "NOT_REPORTED"},
+      { "label": "Unknown", "value": "UNKNOWN"},
+      { "label": "System Generated", "value": "SYSTEM_GENERATED"}
+    ]
+  },
+  "sex": {
+    "label": "Sex",
+    "options": [
+      { "label": "Male", "value": "MALE"},
+      { "label": "Female", "value": "FEMALE"},
+      { "label": "Unspecified", "value": "UNSPECIFIED"},
+      { "label": "Unknown", "value": "UNKNOWN"},
+      { "label": "System Generated", "value": "SYSTEM_GENERATED"}
+    ]
+  },
+  "ethnicity": {
+    "label": "Ethnicity",
+    "options": [
+      { "label": "Hispanic", "value": "HISPANIC"},
+      { "label": "Not Hispanic", "value": "NOT_HISPANIC"},
+      { "label": "Not Reported", "value": "NOT_REPORTED"},
+      { "label": "Unknown", "value": "UNKNOWN"},
+      { "label": "System Generated", "value": "SYSTEM_GENERATED"}
+    ]
+  }
+}
